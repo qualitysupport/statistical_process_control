@@ -1,0 +1,100 @@
+#Process Performance Vs. Process Capability 
+
+#Process performance is desiganted with an "P". It is used when stability requirements #are not met or the data required to understand it is incomplete. 
+
+#Process Capability is designed with a "C". It is used when a process is stable or "in #control" 
+
+#6M Categories of Variation
+
+#Machine Variation
+#Human Variation 
+#Method and Process Variation 
+#Materials
+#Environmental 
+#Measurement System
+
+
+#Enter the process name
+
+process_name <- 
+
+#Enter the upper and lower limits for the entire process as specificed in your control #plan or customer requirements. 
+
+upper_specification_limit <-
+lower_specification_limit <-
+
+target_value <- 
+
+
+
+
+
+#machine variation test 
+
+machine_test_temperature <- 
+machine_teste_humidity <-
+
+machine_test_part1 <- 
+machine_test_part2 <-
+machine_test_part3 <-
+machine_test_part4 <-
+machine_test_part5 <-
+machine_test_part6 <-
+machine_test_part7 <-
+machine_test_part8 <-
+machine_test_part9 <-
+machine_test_part10 <-
+machine_test_part11 <-
+machine_test_part12 <-
+machine_test_part13 <-
+machine_test_part14 <-
+machine_test_part15 <-
+machine_test_part16 <-
+machine_test_part17 <-
+machine_test_part18 <-
+machine_test_part19 <-
+machine_test_part20 <-
+machine_test_part21 <-
+machine_test_part22 <-
+machine_test_part23 <-
+machine_test_part24 <-
+machine_test_part25 <-
+machine_test_part26 <-
+machine_test_part27 <-
+machine_test_part28 <-
+machine_test_part29 <-
+machine_test_part30 <-
+machine_test_part31 <-
+machine_test_part32 <-
+machine_test_part33 <-
+machine_test_part34 <-
+machine_test_part35 <-
+machine_test_part36 <-
+machine_test_part37 <-
+machine_test_part38 <-
+machine_test_part39 <-
+machine_test_part40 <-
+machine_test_part41 <-
+machine_test_part42 <-
+machine_test_part43 <-
+machine_test_part44 <-
+machine_test_part45 <-
+machine_test_part46 <-
+machine_test_part47 <-
+machine_test_part48 <-
+machine_test_part49 <-
+machine_test_part50 <-
+
+
+machine_test_variation_standard_deviation <- sd(c(
+  machine_test_part1, machine_test_part2, machine_test_part3, machine_test_part4, machine_test_part5,
+  machine_test_part6, machine_test_part7, machine_test_part8, machine_test_part9, machine_test_part10,
+  machine_test_part11, machine_test_part12, machine_test_part13, machine_test_part14, machine_test_part15,
+  machine_test_part16, machine_test_part17, machine_test_part18, machine_test_part19, machine_test_part20,
+  machine_test_part21, machine_test_part22, machine_test_part23, machine_test_part24, machine_test_part25,
+  machine_test_part26, machine_test_part27, machine_test_part28, machine_test_part29, machine_test_part30,
+  machine_test_part31, machine_test_part32, machine_test_part33, machine_test_part34, machine_test_part35,
+  machine_test_part36, machine_test_part37, machine_test_part38, machine_test_part39, machine_test_part40,
+  machine_test_part41, machine_test_part42, machine_test_part43, machine_test_part44, machine_test_part45,
+  machine_test_part46, machine_test_part47, machine_test_part48, machine_test_part49, machine_test_part50
+))
